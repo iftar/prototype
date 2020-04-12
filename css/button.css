@@ -1,0 +1,118 @@
+.product-link {
+    background-color: #1db2a3;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    height: 45px;
+    line-height: 42px;
+    border: 1px solid #1db2a3;
+}
+.product-link:hover{
+    background-color: #1db2a3;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.footer-link {
+    background-color: #464747;
+    color: #fff;
+    font-weight: 600;
+    height: 48px;
+    font-size: 16px;
+    display: flex;
+    padding: 0 20px 0 20px;
+    align-items: center;
+    max-width: 220px;
+    border-radius: 5px;
+    margin-right: 24px;
+}
+.footer-link img.thumb-link {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+.footer-recieve-link{
+    color: #717272;
+    height: 48px;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    padding: 0;
+    align-items: center;
+    margin-left: 24px;
+}
+.footer-recieve-link img.thumb-link{
+    width: 30px;
+    height: 30px;
+    margin-right: 12px;
+}
+.give-submit-btn:hover,
+.thank-you-btn:hover,
+.footer-link:hover,
+.footer-recieve-link:hover{
+    color: #fff;
+}
+/**============ Inner page ==============**/
+.thank-you-btn {
+    border: 2px solid #fff;
+    height: 44px;
+    width: 160px;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 80px;
+}
+.confirmation-btn {
+    border: 2px solid #3f3f3f;
+    height: 44px;
+    width: 160px;
+    text-align: center;
+    margin: 0 8px 0 8px;
+    color: #3f3f3f;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.confirmation-btn.right{
+    background-color: #1db2a3;
+    border: 2px solid #1db2a3;
+    color: #fff;
+}
+.give-submit-btn{
+    background-color: #1db2a3;
+    border: 2px solid #1db2a3;
+    height: 50px;
+    width: 160px;
+    text-align: center;
+    margin: 0 8px 0 8px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 3px;
+    text-transform: uppercase;
+    float: right;
+}
